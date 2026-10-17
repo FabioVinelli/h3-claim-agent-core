@@ -1,0 +1,21 @@
+{
+  "case_id": "CASE-042",
+  "payer": "Anthem Blue Cross CA",
+  "claim_id": "CLM-BCBS-PHP-042",
+  "level_of_care": "ASAM 2.5 Partial Hospitalization Program (PHP)",
+  "cpt_code": "H0015",
+  "service_dates": [
+    "2026-02-10",
+    "2026-02-24"
+  ],
+  "billed_amount": 4200.0,
+  "allowed_amount": 3100.0,
+  "paid_amount": 2100.0,
+  "patient_responsibility": 0.0,
+  "denial_codes": [
+    "CARC 45"
+  ],
+  "synthetic_marker": "SYNTHETIC_ONLY",
+  "days_delinquent": 90,
+  "expected_underpayment": 1000.0
+}

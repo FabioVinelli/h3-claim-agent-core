@@ -1,0 +1,21 @@
+{
+  "case_id": "CASE-088",
+  "payer": "Cigna Evernorth",
+  "claim_id": "CLM-CIGNA-IOP-088",
+  "level_of_care": "ASAM 2.1 Intensive Outpatient Program (IOP)",
+  "cpt_code": "90837",
+  "service_dates": [
+    "2026-03-01",
+    "2026-03-12"
+  ],
+  "billed_amount": 1800.0,
+  "allowed_amount": 1200.0,
+  "paid_amount": 0.0,
+  "patient_responsibility": 0.0,
+  "denial_codes": [
+    "CARC 16"
+  ],
+  "synthetic_marker": "SYNTHETIC_ONLY",
+  "days_delinquent": 60,
+  "expected_underpayment": 1200.0
+}

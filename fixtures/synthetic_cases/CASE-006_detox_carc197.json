@@ -1,0 +1,35 @@
+{
+  "case_id": "CASE-006",
+  "payer": "Aetna Commercial PPO",
+  "claim_id": "CLM-AETNA-DETOX-006",
+  "level_of_care": "ASAM 3.7 Inpatient Medically Monitored Detox",
+  "cpt_code": "H0010",
+  "service_dates": [
+    "2026-02-01",
+    "2026-02-05"
+  ],
+  "billed_amount": 2500.0,
+  "allowed_amount": 1800.0,
+  "paid_amount": 1200.0,
+  "patient_responsibility": 0.0,
+  "sequestration_carc_253": 0.0,
+  "denial_codes": [
+    "CARC 197"
+  ],
+  "rarc_codes": [
+    "RARC N702"
+  ],
+  "synthetic_marker": "SYNTHETIC_ONLY",
+  "days_delinquent": 180,
+  "expected_underpayment": 600.0,
+  "expected_interest": 44.38,
+  "evidence_inventory": [
+    {
+      "evidence_id": "EV-006-01",
+      "source_id": "ART-006-AUTH",
+      "locator": "auth_letter.txt #L8",
+      "fact": "Severe Fentanyl withdrawal clinical criteria ASAM Dim 1 & 3 satisfied. Retroactive precertification valid.",
+      "epistemic_state": "VERIFIED_FROM_SOURCE"
+    }
+  ]
+}

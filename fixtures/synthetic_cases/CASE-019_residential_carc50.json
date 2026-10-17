@@ -1,0 +1,24 @@
+{
+  "case_id": "CASE-019",
+  "payer": "UHC Commercial / Optum",
+  "claim_id": "CLM-UHC-RES-019",
+  "level_of_care": "ASAM 3.5 Clinically Managed High-Intensity Residential",
+  "cpt_code": "H0018",
+  "service_dates": [
+    "2026-01-15",
+    "2026-01-30"
+  ],
+  "billed_amount": 7500.0,
+  "allowed_amount": 5400.0,
+  "paid_amount": 0.0,
+  "patient_responsibility": 0.0,
+  "denial_codes": [
+    "CARC 50"
+  ],
+  "rarc_codes": [
+    "RARC N115"
+  ],
+  "synthetic_marker": "SYNTHETIC_ONLY",
+  "days_delinquent": 120,
+  "expected_underpayment": 5400.0
+}
