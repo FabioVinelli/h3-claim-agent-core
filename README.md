@@ -74,7 +74,7 @@ $$\text{Statutory Interest} = \$600.00 \times \left(\frac{0.15}{365}\right) \tim
 | Dimension | Mode A: Facility Recovery SaaS | Mode B: Legal Analytics-as-a-Service |
 | :--- | :--- | :--- |
 | **Client Target** | Behavioral Health & SUD Facilities | ERISA § 502 & Healthcare Litigation Counsel |
-| **Storage Vault** | `gs://h3-vault-consulting/<CLIENT_ID>/` | `gs://h3-vault-litigation/<MATTER_ID>/` |
+| **Storage Vault** | `gs://h3-vault-facility/<CLIENT_ID>/` | `gs://h3-vault-litigation/<MATTER_ID>/` |
 | **Deliverable** | Executive Claim Intelligence Records (CIR) | Master Damages Schedules & Trial Exhibits |
 | **Boundary** | Administrative Dispute Support | Attorney Work Product / UPL Header Protection |
 | **Impact** | Recovers operating cash flow for facilities | Quantifies carrier liability and speeds settlement |
@@ -86,7 +86,7 @@ $$\text{Statutory Interest} = \$600.00 \times \left(\frac{0.15}{365}\right) \tim
 ### 1. Local Testing
 ```bash
 # Clone and enter showcase repo
-git clone https://github.com/highlandhealthhub/h3-claim-agent-core.git
+git clone https://github.com/FabioVinelli/h3-claim-agent-core.git
 cd h3-claim-agent-core
 
 # Setup virtual environment

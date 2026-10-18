@@ -51,6 +51,6 @@
 | Feature | Mode A: Facility Recovery SaaS | Mode B: Legal Analytics-as-a-Service |
 | :--- | :--- | :--- |
 | **Customer Target** | Behavioral Health & SUD Facilities | Healthcare & ERISA Litigators |
-| **Storage Vault** | `gs://h3-vault-consulting/<CLIENT_ID>/` | `gs://h3-vault-litigation/<MATTER_ID>/` |
+| **Storage Vault** | `gs://h3-vault-facility/<CLIENT_ID>/` | `gs://h3-vault-litigation/<MATTER_ID>/` |
 | **Primary Deliverables**| Executive Claim Intelligence Records (CIR) | Master Litigation Damages Models & Exhibits |
 | **Legal Posture** | Administrative Dispute Support | Attorney Work Product / UPL Protection |
